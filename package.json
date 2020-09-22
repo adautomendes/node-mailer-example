@@ -1,15 +1,19 @@
 {
-  "name": "node-mailer-example",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/adautomendes/node-mailer-example.git",
-  "author": "Adauto Mendes Bernardes Júnior <adauto.mendes@inatel.br>",
-  "license": "MIT",
-  "dependencies": {
-    "nodemailer": "^6.4.11",
-    "restify": "^8.5.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+    "name": "node-mailer-example",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/adautomendes/node-mailer-example.git",
+    "author": "Adauto Mendes Bernardes Júnior <adauto.mendes@inatel.br>",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "dependencies": {
+        "dotenv": "^8.2.0",
+        "nodemailer": "^6.4.11",
+        "restify": "^8.5.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
 }
